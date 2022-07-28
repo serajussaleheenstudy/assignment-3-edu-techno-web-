@@ -5,6 +5,47 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.carousel-item{
-    height: 100vh;
+.carousel-caption{
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.carousel-caption h2{
+    font-size: 40px;
+}
+
+.carousel-caption a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #289BDE;
+}
+
+.content{
+    align-items: center;
+}
+
+.btn{
+    padding: 20px;
+}
+
+.fa-star{
+    color: #FBBF24;
+}
+
+footer{
+    background-color: black;
+    height: 40vh;
+}
+
+footer h2{
+    color: whitesmoke;
+}
+
+footer p{
+    color: #E8E8E8;
+}
+
+footer span{
+    color: #E8E8E8;
 }
