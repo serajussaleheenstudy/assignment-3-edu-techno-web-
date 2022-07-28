@@ -21,12 +21,17 @@ body{
     background-color: #289BDE;
 }
 
-.content{
-    align-items: center;
+.head{
+    text-align: center;
 }
 
-.btn{
-    padding: 20px;
+.head h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.head p{
+    font-size: 18px;
 }
 
 .fa-star{
