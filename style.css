@@ -21,6 +21,10 @@ body{
     background-color: #289BDE;
 }
 
+.carousel-item{
+    filter: brightness(75%);
+}
+
 .head{
     text-align: center;
 }
@@ -34,23 +38,29 @@ body{
     font-size: 18px;
 }
 
-.fa-star{
+.feedback{
+    text-align: center;
+}
+
+.fa-star {
     color: #FBBF24;
+}
+
+.faq{
+    text-align: center;
+}
+
+.company h2{
+    text-align: center;
 }
 
 footer{
     background-color: black;
-    height: 40vh;
 }
-
-footer h2{
-    color: whitesmoke;
-}
-
-footer p{
-    color: #E8E8E8;
-}
-
-footer span{
-    color: #E8E8E8;
-}
+/* 
+@media only screen and(max-width: 768px;){
+    .company{
+        display: none;
+        background-color: white;
+    }    
+} */
